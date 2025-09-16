@@ -8,7 +8,7 @@ public class DatabaseConnection {
 
 	
 	   // --- IMPORTANT: UPDATE THESE VALUES WITH YOUR DATABASE CREDENTIALS ---
-    private static final String DB_URL = "jdbc:mysql://localhost:9393/Resume_Builder";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/Resume_Builder?useSSL=false";
     private static final String DB_USER = "root"; // e.g., "root"
     private static final String DB_PASSWORD = "Root"; // e.g., "password"
     // --------------------------------------------------------------------
